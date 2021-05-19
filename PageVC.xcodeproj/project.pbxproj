@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE5B7B61265515360082722D /* initViewVCScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5B7B60265515360082722D /* initViewVCScreen.storyboard */; };
+		FE5B7B68265518660082722D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5B7B67265518660082722D /* ViewController.swift */; };
+		FE5B7B7326551BAC0082722D /* initPageVCScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5B7B7226551BAC0082722D /* initPageVCScreen.storyboard */; };
+		FE67A8A5265574FF00D52F49 /* initPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE67A8A4265574FF00D52F49 /* initPageVC.swift */; };
+		FE67A8A8265575FF00D52F49 /* initPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE67A8A7265575FF00D52F49 /* initPageViewController.swift */; };
+		FE9F59C52652EEEC00D4D4EF /* initViewDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F59C42652EEEC00D4D4EF /* initViewDataVC.swift */; };
+		FE9F59C92652EFD400D4D4EF /* initViewPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F59C82652EFD400D4D4EF /* initViewPageViewController.swift */; };
 		FEC98308263FD8A200D6DCE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC98307263FD8A200D6DCE0 /* AppDelegate.swift */; };
 		FEC9830A263FD8A200D6DCE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC98309263FD8A200D6DCE0 /* SceneDelegate.swift */; };
-		FEC9830C263FD8A200D6DCE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC9830B263FD8A200D6DCE0 /* ViewController.swift */; };
+		FEC9830C263FD8A200D6DCE0 /* initViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC9830B263FD8A200D6DCE0 /* initViewVC.swift */; };
 		FEC9830F263FD8A200D6DCE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC9830D263FD8A200D6DCE0 /* Main.storyboard */; };
 		FEC98311263FD8A300D6DCE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC98310263FD8A300D6DCE0 /* Assets.xcassets */; };
 		FEC98314263FD8A300D6DCE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC98312263FD8A300D6DCE0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE5B7B60265515360082722D /* initViewVCScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = initViewVCScreen.storyboard; sourceTree = "<group>"; };
+		FE5B7B67265518660082722D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE5B7B7226551BAC0082722D /* initPageVCScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = initPageVCScreen.storyboard; sourceTree = "<group>"; };
+		FE67A8A4265574FF00D52F49 /* initPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initPageVC.swift; sourceTree = "<group>"; };
+		FE67A8A7265575FF00D52F49 /* initPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initPageViewController.swift; sourceTree = "<group>"; };
+		FE9F59C42652EEEC00D4D4EF /* initViewDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initViewDataVC.swift; sourceTree = "<group>"; };
+		FE9F59C82652EFD400D4D4EF /* initViewPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initViewPageViewController.swift; sourceTree = "<group>"; };
 		FEC98304263FD8A200D6DCE0 /* PageVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC98307263FD8A200D6DCE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEC98309263FD8A200D6DCE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FEC9830B263FD8A200D6DCE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEC9830B263FD8A200D6DCE0 /* initViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initViewVC.swift; sourceTree = "<group>"; };
 		FEC9830E263FD8A200D6DCE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEC98310263FD8A300D6DCE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEC98313263FD8A300D6DCE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +51,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE5B7B63265516800082722D /* initViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B7B60265515360082722D /* initViewVCScreen.storyboard */,
+				FEC9830B263FD8A200D6DCE0 /* initViewVC.swift */,
+				FE9F59C42652EEEC00D4D4EF /* initViewDataVC.swift */,
+				FE9F59C82652EFD400D4D4EF /* initViewPageViewController.swift */,
+			);
+			path = initViewVC;
+			sourceTree = "<group>";
+		};
+		FE5B7B7026551B420082722D /* initPageVC */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B7B7226551BAC0082722D /* initPageVCScreen.storyboard */,
+				FE67A8A7265575FF00D52F49 /* initPageViewController.swift */,
+				FE67A8A4265574FF00D52F49 /* initPageVC.swift */,
+			);
+			path = initPageVC;
+			sourceTree = "<group>";
+		};
 		FEC982FB263FD8A200D6DCE0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +91,11 @@
 		FEC98306263FD8A200D6DCE0 /* PageVC */ = {
 			isa = PBXGroup;
 			children = (
+				FE5B7B7026551B420082722D /* initPageVC */,
+				FE5B7B63265516800082722D /* initViewVC */,
 				FEC98307263FD8A200D6DCE0 /* AppDelegate.swift */,
 				FEC98309263FD8A200D6DCE0 /* SceneDelegate.swift */,
-				FEC9830B263FD8A200D6DCE0 /* ViewController.swift */,
+				FE5B7B67265518660082722D /* ViewController.swift */,
 				FEC9830D263FD8A200D6DCE0 /* Main.storyboard */,
 				FEC98310263FD8A300D6DCE0 /* Assets.xcassets */,
 				FEC98312263FD8A300D6DCE0 /* LaunchScreen.storyboard */,
@@ -124,6 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5B7B7326551BAC0082722D /* initPageVCScreen.storyboard in Resources */,
+				FE5B7B61265515360082722D /* initViewVCScreen.storyboard in Resources */,
 				FEC98314263FD8A300D6DCE0 /* LaunchScreen.storyboard in Resources */,
 				FEC98311263FD8A300D6DCE0 /* Assets.xcassets in Resources */,
 				FEC9830F263FD8A200D6DCE0 /* Main.storyboard in Resources */,
@@ -137,9 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC9830C263FD8A200D6DCE0 /* ViewController.swift in Sources */,
+				FE5B7B68265518660082722D /* ViewController.swift in Sources */,
+				FEC9830C263FD8A200D6DCE0 /* initViewVC.swift in Sources */,
+				FE9F59C92652EFD400D4D4EF /* initViewPageViewController.swift in Sources */,
 				FEC98308263FD8A200D6DCE0 /* AppDelegate.swift in Sources */,
+				FE67A8A5265574FF00D52F49 /* initPageVC.swift in Sources */,
+				FE9F59C52652EEEC00D4D4EF /* initViewDataVC.swift in Sources */,
 				FEC9830A263FD8A200D6DCE0 /* SceneDelegate.swift in Sources */,
+				FE67A8A8265575FF00D52F49 /* initPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +331,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U8PYJFN94;
 				INFOPLIST_FILE = PageVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U8PYJFN94;
 				INFOPLIST_FILE = PageVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

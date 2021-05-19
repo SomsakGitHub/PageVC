@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  initViewPageViewController.swift
 //  PageVC
 //
-//  Created by somsak on 19/5/2564 BE.
+//  Created by somsak on 18/5/2564 BE.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class initViewPageViewController: UIPageViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

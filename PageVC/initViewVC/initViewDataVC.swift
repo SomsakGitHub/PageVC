@@ -1,18 +1,24 @@
 //
-//  ViewController.swift
+//  initViewDataVC.swift
 //  PageVC
 //
-//  Created by somsak on 19/5/2564 BE.
+//  Created by somsak on 18/5/2564 BE.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class initViewDataVC: UIViewController {
+    
+    @IBOutlet weak var displayLabel: UILabel!
+    
+    var index = 0
+    
+    var displayText: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.displayLabel.text = self.displayText
     }
     
 
